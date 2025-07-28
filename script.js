@@ -33,3 +33,13 @@ let newStudent = JSON.parse(studentString);
 console.log(newStudent);
 
 console.log("The parsed student object is missing the studentInfo function.")
+
+//Part Three
+let { name:studentName, courses:studentCourses } = student;
+console.log(studentName);
+console.log(studentCourses);
+
+let scores = [65,80,95,98];
+let [firstScore, secondScore] = scores;
+console.log(firstScore);
+console.log(secondScore);
