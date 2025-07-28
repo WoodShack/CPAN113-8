@@ -56,3 +56,9 @@ console.log(newCourses);
 student.addCourse("WRIT220");
 console.log(student);
 console.log("Number of courses: "+student.numberOfCourses());
+
+//Bonus
+let moreScores = [65,80,70,95,98];
+let sum = moreScores.reduce((acc, curr) => acc + curr, 0);
+let average = sum/moreScores.length;
+console.log("The average score is "+average+"%");
