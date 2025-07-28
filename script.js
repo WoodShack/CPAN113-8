@@ -51,3 +51,8 @@ console.log(clonedStudent);
 
 let newCourses = [...student.courses, "CPAN100", "CPAN200"];
 console.log(newCourses);
+
+//Part Five
+student.addCourse("WRIT220");
+console.log(student);
+console.log("Number of courses: "+student.numberOfCourses());
