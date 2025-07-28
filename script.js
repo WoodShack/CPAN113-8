@@ -20,3 +20,16 @@ let student = {
 
 console.log("Hello, I am "+student.name+" and I am "+student.age);
 student.studentInfo();
+
+//Part Two
+let studentString = JSON.stringify(student);
+console.log(studentString);
+
+console.log("Orignal student object:")
+console.log(student);
+
+console.log("Parsed student object:")
+let newStudent = JSON.parse(studentString);
+console.log(newStudent);
+
+console.log("The parsed student object is missing the studentInfo function.")
